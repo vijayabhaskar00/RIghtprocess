@@ -382,8 +382,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .chart .title{
-    font-size: 30pt;
-    width:175px;
+    font-size: 18pt;
+    width:166px;
     text-align: center;
     position: absolute;
     top:-60px;
@@ -397,16 +397,16 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .percent {
     display: inline-block;
-    line-height: 175px;
-    width: 175px;
+    line-height: 166px;
+    width: 166px;
     z-index: 2;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 .percent:after {
     content: '%';
     margin-left: 5px;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 .skill10{
@@ -644,7 +644,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #contact .contact-text{
-    font-size: 16pt;
+    font-size: 12pt;
     line-height: 34px;
     margin-bottom: 30px;
     text-align: justify;
@@ -938,6 +938,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         font-size: 9pt;
         border:2px solid #fff;
     }
+	#contact .contactform h3
+	{
+		font-size:14pt;
+		font-weight:400;
+	}
     
     #contact .contact-text {
         font-size: 14pt;
