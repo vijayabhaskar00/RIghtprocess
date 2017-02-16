@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .big-text{
-    font-size:42pt;
+    font-size:26pt;
     font-weight:500;
     text-transform: uppercase;
     line-height:62px;
@@ -118,45 +118,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         
 }
 
-/*-----------------------
----- Color options ----
--------------------------*/
-#color-options{
-    width:130px;
-    padding:10px;
-    background: #fff;
-    border-radius: 0% 0% 10px 0%;
-    border:1px solid grey;
-    position: fixed;
-    left: -130px;
-    top: 30%;
-    z-index: 999;
-    -webkit-transition:left 0.3s ease-out;
-    transition:left 0.3s ease-out;
-}
 
-#color-options:hover{
-    left:0px;
-}
-
-#color-options i{
-    font-size: 20pt;
-    background: #fff;
-    border-radius: 0% 50% 50% 0%;
-    border:1px solid grey;
-    border-left: 0px; 
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    position: absolute;
-    right:-50px;
-    top:-1px;
-}
-
-#color-options img{
-    cursor: pointer;
-}
 
 /*-----------------------
 ---- Menu Styles ----
@@ -168,10 +130,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #main-nav .navbar-brand{
     display: inline-block;
-    font-size:24pt;
+    font-size:20pt;
     font-weight:700;
     color: #fff;
-    text-transform: uppercase;
+     
     line-height: 54px;
 }
 
@@ -284,7 +246,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #home p{
     margin:0 auto;
-    font-size: 24pt;
+    font-size: 20pt;
     font-weight: 600;
     background: #FFA000;
     display: table;
@@ -301,7 +263,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #home h1, #home h2{
     margin:-10px auto;
     z-index: -1;
-    font-size: 40pt;
+    font-size: 36pt;
     font-weight: 600;
     background: #FF6F00;
     display: table;
@@ -325,7 +287,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #about .about-text{
     margin-bottom:50px;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: justify;
 }
 
@@ -826,7 +788,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 @media (max-width:991px){
     
     .big-text{
-        font-size:30pt;
+        font-size:20pt;
         line-height:40px;
         margin-bottom:30px;
     }
@@ -834,7 +796,29 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     #about .image{
         width:250px;
     }
+	#main-nav .navbar-brand{
     
+    font-size:14pt;
+    
+}
+    #main-nav .nav a, #main-nav .nav a:active, #main-nav .nav a:hover{
+    
+    font-size:12pt;
+    
+}
+	#about .timeline div p span{
+     
+    font-size: 14pt;
+}
+	#about .timeline div p{
+     
+    font-size: 12pt;
+}
+    #about .timeline div i{
+    
+    font-size: 18pt;
+    
+}
     .chart{
         margin-bottom: 60px;
     }
@@ -871,7 +855,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 @media (max-width:767px){
     
     .big-text{
-        font-size:26pt;
+        font-size:18pt;
      }
     
     body{
@@ -899,7 +883,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     }
     
     #about .about-text{
-        font-size: 14pt;
+        font-size: 12pt;
     }
     
     #about .timeline {
@@ -937,7 +921,19 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         font-size: 10pt;
         border:2px solid #fff;
     }
+	#about .timeline div p span{
+     
+    font-size: 14pt;
+}
+	#about .timeline div p{
+     
+    font-size: 12pt;
+}
+    #about .timeline div i{
     
+    font-size: 18pt;
+    
+}
     .modal-header h4 span{
         font-size: 9pt;
         border:2px solid #fff;
