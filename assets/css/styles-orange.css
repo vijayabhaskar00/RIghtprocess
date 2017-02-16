@@ -746,7 +746,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #gmap{
 	display: block;
-	width: 400px;
+	width: 100%;
 	height: 300px;
 	margin: 0 auto;
     /*border-radius: 50% 50% 0 50%;*/
