@@ -6366,7 +6366,7 @@ p {
 
 #headerstic {
 	position: relative;
-	z-index: 99999999
+	z-index: 19000;
 }
 
 .search-bar-icon {
