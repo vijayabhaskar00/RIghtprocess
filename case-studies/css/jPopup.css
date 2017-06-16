@@ -61,7 +61,7 @@
     animation: b .25s ease-in
 }
 .jPopup {
-    position: absolute;
+    position: fixed;
 
     max-width: 100%;
     padding: 50px 15px 15px;
@@ -82,7 +82,7 @@
     background: #fff
 }
 .jPopup>.jCloseBtn {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     z-index: 200000;
@@ -112,8 +112,8 @@
     top: 50%;
     left: 15px;
     right: 15px;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
-} 
+}
